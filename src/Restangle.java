@@ -6,11 +6,11 @@ public class Restangle extends GeometricFigure{
         this.sideB = sideB;
         this.high = high;
     }
-    void area(double sideA, double sideB, double high)
+    public void area(double sideA, double sideB, double high)
     {
         System.out.println("To'rburchak yuzi: "+ sideA*sideB);
     }
-    void perimetr(double sideA, double sideB, double high){
+    public void perimetr(double sideA, double sideB, double high){
         System.out.println("To'rtburchak perimetri: "+2*(sideA+sideB));
     }
 

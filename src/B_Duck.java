@@ -4,13 +4,13 @@ public class B_Duck extends B_Anima{
     {
         this.name = name;
     }
-    void sound()
+    public void sound()
     {
         System.out.println("Animal sound: "+"quack quack");
     }
 
     @Override
-    void getName(String name) {
+    public void getName(String name) {
         System.out.println( "Animal name: "+ name);
     }
 

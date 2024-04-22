@@ -1,6 +1,11 @@
-public abstract class B_Anima {
+public  class B_Anima {
     public static String name;
-    abstract void sound();
-    abstract void getName(String name);
+    public void sound()
+    {
+        System.out.println("Animal:");
+    }
+    public void getName(String name){
+        System.out.println("Name:");
+    }
 
 }
