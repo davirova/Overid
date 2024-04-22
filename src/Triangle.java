@@ -1,4 +1,4 @@
-public class Triangle extends GeometricFigure{
+class Triangle extends GeometricFigure{
     Triangle(){}
     Triangle( double sideA, double sideB,double sideC)
     {
@@ -6,7 +6,7 @@ public class Triangle extends GeometricFigure{
         this.sideB = sideB;
         this.sideC = sideC;
     }
-    public void area(double sideA, double sideB,double sideC)
+    void area(double sideA, double sideB,double sideC)
     {
         double k ,p;
         p = (sideA + sideB + sideC)/2;

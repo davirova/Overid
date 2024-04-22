@@ -1,19 +1,11 @@
-public class GeometricFigure {
-    public static double sideA;
-    public static double sideB;
-    public static double sideC;
-    public static double high;
-    public void area(double a, double b,double c){
-        System.out.println("Super class...");
-    }
-    public void area(double a,double b){
-        System.out.println("Super class...");
-    }
-    public void perimetr(double a, double b,double c){
-        System.out.println("Perimetri...");
-    }
-    public void perimetr(double a, double b){
-        System.out.println("Perimetri...");
+public abstract class GeometricFigure {
+     static double sideA;
+     static double sideB;
+     static double sideC;
+     static double high;
+    abstract void area(double sideA, double sideB,double sideC);
+    abstract void perimetr(double sideA, double sideB,double high);
+
     }
 
-}
+
